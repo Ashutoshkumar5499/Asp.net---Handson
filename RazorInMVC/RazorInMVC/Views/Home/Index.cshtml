@@ -1,0 +1,41 @@
+﻿
+<html>
+<head>
+
+</head>
+<body>
+    <div>
+        <h1>
+            Hello You are in Index VIEW !!
+        </h1>
+    </div>
+    <div>
+         @DateTime.Now
+    </div>
+    <div>
+        @(7-2)
+    </div>
+    
+        @{ // Logic is written here in c# language.
+            var a = 1;
+            var b = 2;
+            var c = a + b;
+            var currentTime = DateTime.Now;
+            var tomorrowTime = DateTime.Now.AddDays(1);
+        }
+
+    <div>
+        <label>@c</label>
+        <br />
+        <label>Current Time - @currentTime</label>
+        <br/>
+        <label>Tomorrow Time - @tomorrowTime</label>
+        <br />
+
+        <label>  @@Ashutosh_Kumar  </label>
+    </div>
+
+        
+    
+</body>
+</html>
